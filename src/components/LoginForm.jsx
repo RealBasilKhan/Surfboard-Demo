@@ -1,5 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
+import logo from "../logo.jpeg";
+import "../App.css";
 
 const projectID = process.env.PROJECT_ID;
 
@@ -35,7 +37,7 @@ const Modal = () => {
   return (
     <div className="wrapper">
       <div className="form">
-        <h1 className="title">Investor Board</h1>
+        <img src={logo} width={150} height={150} alt="Surfboard logo" />
         <form onSubmit={handleSubmit}>
           <input
             type="text"

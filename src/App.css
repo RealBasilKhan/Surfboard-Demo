@@ -231,6 +231,7 @@
     rgba(0, 212, 255, 1) 100%
   );
   display: flex;
+
   justify-content: center;
   align-items: center;
 }
@@ -298,4 +299,9 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+img {
+  margin-left: 120px;
+  margin-bottom: 20px;
 }
