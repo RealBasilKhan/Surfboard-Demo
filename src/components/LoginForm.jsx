@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const projectID = PROJECT_ID;
+const projectID = process.env.PROJECT_ID;
 
 const Modal = () => {
   const [username, setUsername] = useState("");
